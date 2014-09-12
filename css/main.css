@@ -1,0 +1,111 @@
+/* ADD YOUR STYLES HERE */
+
+form {
+	position: relative;
+	margin-right: 20%;
+}
+input {
+	border-radius: 7px;
+	width: 300px;
+	height: 30px;
+	margin: 10px 17px;
+	padding: 0px;
+
+
+}
+label {
+	text-align: right;
+}
+form div {
+	display: block;
+	text-align: right;
+	margin: auto;	
+	padding-right: 100px;
+}
+input.city {
+	width: 175px;
+	left: 425px;
+	/*margin: 10px 30px;*/
+
+}
+input.state {
+	width: 40px;
+	margin: 10px 17px ;
+}
+input.check {
+	width: 15px;
+	text-align: left;
+	margin: 2px 5px 0px 0px;
+	height: 14px;
+}
+label.checkbox {
+	padding-right: 10px;
+}
+div.submit {
+	padding: 0px;
+}
+div.validity input:valid {
+	box-shadow: 2px 2px 22px 0px #ABEAA4;
+
+}
+div.validity span.is-invalid, div.validity span.is-valid {
+	display: none;
+}
+div.validity input:invalid {
+	box-shadow: 4px 2px 22px 0px #FFC4C4;
+	
+}
+div.validity input:invalid + span.is-invalid {
+		display: inline;
+		float: right;
+		position: absolute;
+		width: 191px;
+		margin-top: 20px;
+		color: red;
+	}
+div.validity input:valid + span.is-valid {
+	display: inline;
+		float: right;
+		position: absolute;
+		margin-top: 20px;
+		color: green;
+}
+div.search-div {
+	border: 1px solid gray;
+	background: #DDDDDD;
+	border-radius: 7px;
+	position: relative;
+	height: 60px;
+}
+div.search-box {
+	width: 73%;
+	margin-left: 12%;
+	margin-top: .5%;
+}
+input.search {
+	border-radius: 10px;
+	border: 1px solid #ABA9A9;
+	color: #ABA9A9;
+	/*font-weight: bold;*/
+	width: 100%;
+	
+}
+div.search-div label, div.search-div input.search-submit {
+ /*height: 100%;*/
+
+}
+div.search-div label {
+	left: 0;
+	width: 100px;
+	position: absolute;
+	top: 20px;
+}
+div.search-div input.search-submit {
+	right: 0;
+	width: 60px;
+	position: absolute;
+	top: 6px;
+	background-color: #ED828A;
+	color: white;
+	border-radius: 5px;
+}
